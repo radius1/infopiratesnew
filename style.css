@@ -33,10 +33,13 @@
     text-align: center;
 }
 
-.action-call button {
+
+.action {
     width: 80%;
     color: #5087CB;
+    background: #EAE17D;
 }
+
 
 .banner-logo {
     margin-top: 120px;
@@ -64,6 +67,7 @@
     text-align:center;
 }
 
+
 .dates p {
     text-align: center;
 }
@@ -76,6 +80,7 @@
     width: 1em;
     margin: 0 auto;
 }
+
 .footer {
     margin-top: 50px;
     padding-top: 20px;

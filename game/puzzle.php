@@ -38,7 +38,7 @@ session_start();
     <div class="container">
       <div class="row">
         <div class="page-header">
-          <h1>Infohunters </h1>
+          <h1>InfoPirates </h1>
           <h2>vind ze allemaal...</h2> 
         </div>
           Puzzelstukken behaald:<span class="counter badge"></span><br>
