@@ -29,6 +29,15 @@
     height: 500px;
 }
 
+.action-call {
+    text-align: center;
+}
+
+.action-call button {
+    width: 80%;
+    color: #5087CB;
+}
+
 .banner-logo {
     margin-top: 120px;
 }

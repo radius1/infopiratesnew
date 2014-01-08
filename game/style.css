@@ -48,6 +48,9 @@ a:hover, a:link {
   color: inherit;
   text-decoration: none;
 }
+.userinfo {
+  background: rgba(255,255,255,0.6);
+}
 
 .page-header {
   text-align: center;

@@ -87,7 +87,7 @@ session_start();
             <div class="modal-content">
               <div class="modal-header">
                 <img src="img/box-closed.png" alt="" id="puzzle-piece">
-                <h4 class="modal-title" id="myModalLabel">Welkom, infohunter...</h4>
+                <h4 class="modal-title" id="myModalLabel">Welkom, InfoPirate...</h4>
               </div>
               <div class="modal-body">
                 <p>Je hebt zojuist je eerste stuk van de puzzel gevonden. Er zijn er nog 5 te vinden op deze open dag.</p>

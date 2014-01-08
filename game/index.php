@@ -15,7 +15,7 @@ else
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>InfoPirates, de Game!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <meta charset="ISO-8859-1">
@@ -55,9 +55,11 @@ else
       </div>
 
       <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 userinfo">
        Welkom, <span class="user"> <b><?php echo $_SESSION['name'];?></b></span>. Puzzelstukken behaald: <span class="badge counter"></span>
+      <p>klik op de quests om de opdrachten te zien</p>
       </div>
+
       </div>
 
       <div class="row">
