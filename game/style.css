@@ -1,0 +1,143 @@
+@font-face {
+    font-family: pirate;
+    src: url('fonts/appleton.otf');
+}
+
+body {
+    
+  color: black;
+  background-image:url(img/background.jpg);
+  background-position: -700px 0px;
+}
+
+.panel {
+  background: #EAEAEA;
+}
+
+.nav-tabs li a {
+  background: rgba(255,255,255,0.7);
+}
+
+.text-reg {
+  text-align: center;
+}
+
+.var-text-succes {
+  display: none;
+}
+
+.var-text-fail {
+  display: none;
+}
+
+ul.nav {
+margin-top: 20px;
+}
+
+#tabs {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.logout {
+  float: right;
+}
+
+a:hover, a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  color: white;
+}
+
+.page-header h1, .page-header h2 {
+    font-size: 40px;
+  font-family: pirate;
+  background: rgba(20,20,20,0.5);
+}
+
+.piece {
+  background: url('img/lock.png') no-repeat center;
+  /*background: blue;*/
+
+  border: 1px solid;
+}
+
+.piece-1 {
+  background: #D5EAEA;  
+    opacity: 0;
+}
+
+.piece-2 {
+  background: #E0C1FF;  
+    opacity: 0;
+}
+
+.piece-3 {
+  background: #DFDFEE;
+    opacity: 0;
+}
+
+.piece-4 {
+  background:#FFDDBB;
+    opacity: 0;
+}
+
+.piece-5 {
+  background: #FFC8E3;
+    opacity: 0;
+}
+
+.piece-6 {
+  background: #FFFFB3; 
+    opacity: 0;
+}
+
+.puzzle-container {
+  margin-top: 30px;
+}
+#puzzle-piece {
+    width: 50px;
+    height: 75px;
+}
+.panel-heading {
+    background-color: rgba(0,0,0,0.5);
+}
+.panel-heading {
+    padding: 0;
+}
+
+.text-reg {
+  background: rgba(255,255,255,0.7);
+}
+
+.text-reg h4{
+    font-size: 30px;
+    font-family: pirate;
+}
+#marker {
+    width: 40px;
+    height: 40px;
+}
+
+.panel-title {
+  overflow: hidden;
+}
+
+.panel-title a {
+  padding-left: 10px;
+  vertical-align: bottom;
+  line-height: 40px;
+}
+
+.done img {
+  width: 30px;
+  height: 30px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}

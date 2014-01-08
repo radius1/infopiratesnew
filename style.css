@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+@media only screen and (max-width:360px) { 
+    .logo {
+        max-width: 220px;
+        margin-top: 16px !important;
+        margin-left: 5px;
+    }
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background: #FFF;
+    border-bottom: 2px solid #777;
+}
+
+.banner {
+    margin-top: 80px;
+    background: url('images/banner.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-logo {
+    margin-top: 120px;
+}
+
+.icon {
+    font-size: 24px;
+    padding-top: 19px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h3 {
+    margin-left: 10px;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.dates h3 {
+    margin-left: 0;
+    text-align:center;
+}
+
+.dates p {
+    text-align: center;
+}
+
+.dates .icon {
+    width: 1em;
+    margin: 0 auto;
+}
+.glyph {
+    width: 1em;
+    margin: 0 auto;
+}
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #444;
+    color: white;
+}

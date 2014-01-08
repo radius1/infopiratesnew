@@ -1,0 +1,57 @@
+@font-face{
+    font-family:parry_hotter url('fonts/parryhotter/parry_hotter.ttf');
+    -webkit-font-family:parry_hotter url('fonts/parryhotter/parry_hotter.ttf');
+    -moz-font-family:parry_hotter url('fonts/parryhotter/parry_hotter.ttf');
+    -o-font-family:parry_hotter url('fonts/parryhotter/parry_hotter.ttf');
+}
+
+h1{
+    font-family:parry_hotter;
+    -webkit-font-family:parry_hotter;
+    -moz-font-family:parry_hotter;
+    -o-font-family:parry_hotter;
+}
+
+#wrapper{
+    margin: 0 auto;
+}
+
+#header-wrapper{
+    background:#fffeff;
+    height: 54px;
+}
+
+.menu{
+    color:black;
+    overflow: hidden;    
+}
+
+.menu ul{
+    margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+	display: block;
+	padding: 0px 40px 0px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+    font-family:calibri;
+    font-size:24px;
+	font-weight: 200;
+	color: black;
+	border: none;
+}
+
+.menu a {
+    line-height: 70px;
+}
+
+
