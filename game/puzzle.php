@@ -92,7 +92,7 @@ session_start();
               <div class="modal-body">
                 <p>Je hebt zojuist je eerste stuk van de puzzel gevonden. Er zijn er nog 5 te vinden op deze open dag.</p>
                 <p>Wil je meedoen met dit avontuur, gemaakt door de opleiding Mediadevelopment?</p>
-                <button type='button' class="btn-block"><h4><a href="register.php">Registreer dan nu!</a></h4></button>
+                <button type='button' onclick="window.location='http://game.infopirates.nl' "class="btn-block"><h4>Registreer dan nu!</h4></button>
               </div>
               <div class="modal-footer">
                

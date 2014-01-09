@@ -96,11 +96,16 @@ h1{
 
 .container{
     padding: 20px;
-    position:relative; 
+    position:relative;
+    overflow: hidden;
 }
 
 .footer, .container:after {
     height:50px;
+}
+
+.container figure {
+
 }
 
 
