@@ -10,6 +10,7 @@ html, body{
     background-color: #dedede;
     font-family:calibri;
     height:100%;
+    min-width: 1080px;
 }
 
 h1{
@@ -94,37 +95,32 @@ h1{
 }
 
 .container{
-    min-height:100%;
-    margin-bottom: -50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position:relative;
-}
-
-.container:after{
-    content:"";
-    display:block;
+    padding: 20px;
+    position:relative; 
 }
 
 .footer, .container:after {
     height:50px;
 }
 
+
 .container p{
-    position:absolute;
-    top: 25px;
-    left:5px;
-    max-width: 55%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+    text-align: justify;
+  float: left;
+    width: 55%;
+    padding-right: 20px;
+    
 }
 
 .container figure{
-    position:absolute;
-    top: 25px;
-    right:85px;
-    background-size:50px;
+
 }
 
-#wrapper-footer p{
+#footer-wrapper p{
     font-size: 15px;
     text-align:center;
 }
