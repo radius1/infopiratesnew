@@ -181,7 +181,7 @@ Het eerste puzzelstuk.  </p>
                <p><b>De kapitein spreekt:</b>"GEZOCHT! Ik zoek naar een landrot die is ge-entert op mijn schip en mijn schat heeft gestolen! 
                Zoek naar die landrot, levend of dood! Hij zit in dit gebouw bij het Radius College, maar hij verplaatst keer op keer. Hij is
                voor het laatst gezien op de 3de verdieping. Als je hem ziet, loop je er naar toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
-               <p><img src="img/piraat.jpg"></p> 
+               <p><img src="img/piraat.png"></p> 
               <hr class="quest">
                 <p>Beloning: Het zesde puzzelstuk</p>
               </div> 
