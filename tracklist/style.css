@@ -21,6 +21,16 @@ h1{
     top:2px;
 }
 
+h2{
+    font-size:48px;
+    font-family:parry_hotter;
+    color:white;
+    text-stroke: 1.3px black;
+    -webkit-text-stroke: 1.3px black;
+    -moz-text-stroke: 1.3px black;
+    -o-text-stroke: 1.3px black;
+}
+
 #wrapper{
     margin: 0 auto;
 }
