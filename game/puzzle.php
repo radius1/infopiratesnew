@@ -1,6 +1,7 @@
 <?php 
-session_start();
 
+session_start();
+require 'connect.inc.php';
  ?>
 
 <!DOCTYPE html>
@@ -70,7 +71,24 @@ session_start();
               <h4 class="modal-title" id="myModalLabel">Proficiat InfoPirate!</h4>
             </div>
             <div class="modal-body">
-              <p>Held! je hebt alles gevonden! Wat een fantastische prestatie voor een landrot als jij! Bevestig nogmaals het email adres hieronder en maak kans op één van de mooie prijzen die te winnen zijn.</p>
+              <p>Held! je hebt alles gevonden! Wat een fantastische prestatie voor een landrot als jij! Bevestig nogmaals het email adres hieronder en maak kans op één van de mooie prijzen die te winnen zijn.<br><br>
+              
+              <?php
+                  if(isset($_POST['submit'])){
+                      $emailcontrole = $_POST['emaill'];
+                      $usernamesessie = $_SESSION['name'];
+                      
+                      mysqli_query($con, "UPDATE tbl_users SET email2='$emailcontrole' WHERE username='$usernamesessie'");
+                   header('location:http://www.infopirates.nl');
+                  }
+              ?>
+              
+              <form action="#" method="POST">
+              <input type="email" id="verificationEmail" name="emaill" placeholder="e-mail" />
+              <input type="submit" name="submit" value="Maak kans!" />
+              </form>
+              
+              </p>
             </div>
             <div class="modal-footer">
              
