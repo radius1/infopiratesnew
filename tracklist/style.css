@@ -31,22 +31,26 @@ h1{
     position:relative;
 }
 
-.menu{
+.menu, #playlist{
     color:black;
-    overflow: hidden; 
-    position:absolute;
+    overflow: hidden;
     top: 14px;
     right:10px;
 }
 
-.menu ul{
+.menu{
+    position:absolute;
+}
+
+.menu ul, #playlist ul{
     margin: 0px 0px 0px 0px;
 	padding: 0px 0px;
 	list-style: none;
 	line-height: normal;
 }
 
-.menu li{
+.menu li, #playlist li{
+    margin:2px;
     display: inline-block;
 }
 
@@ -94,20 +98,38 @@ h1{
     color:white;
 }
 
+ul {
+    list-style:none;
+}
+
+#playlist{
+    background:#666;
+    width:400px;
+    padding:20px;
+}
+
+.active a{
+    color:#5DB0E6;
+    text-decoration:none;
+}
+
+#playlist li a{
+    color:#eeeedd;
+    background:#333;
+    padding:15px;
+    display:block;
+}
+
+#playlist li a:hover{
+    text-decoration:none;
+}
+
 .container{
     padding: 20px;
     position:relative;
     overflow: hidden;
+    display:block;
 }
-
-.footer, .container:after {
-    height:50px;
-}
-
-.container figure {
-
-}
-
 
 .container p{
     -webkit-column-count: 2;
@@ -117,15 +139,26 @@ h1{
     text-align: justify;
   float: left;
     width: 55%;
-    padding-right: 20px;
-    
+    padding-right: 20px;    
 }
 
-.container figure{
+.tracklist{
+    position:absolute;
+    top:15px;
+    right:15px;
+}
 
+.footer, .container:after {
+    height:50px;
+}
+
+#footer-wrapper{
+    padding-top:41px;
 }
 
 #footer-wrapper p{
     font-size: 15px;
     text-align:center;
+    text-transform:bold;
+    font-weight:bolder
 }
