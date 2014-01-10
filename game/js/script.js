@@ -195,3 +195,46 @@ function updateHeight()
     div.css('height', width);
 }
 
+//chatfunctie
+
+	$('#exit').click(function()
+							{
+								
+								if (exit)
+								{
+									window.location = 'index.php?logout=true';
+								}
+							});
+							
+							console.log('test');
+							
+							$('#submitmsg').on('click', function()
+							{
+							
+								var clientmsg = $('#usermsg').val();
+								$.post('post.php', {text: clientmsg});
+								$('#usermsg').val('');
+								return false;
+							});
+							
+							function loadlog()
+							{
+								$.ajax(
+								{
+									url: "log.html",
+									cache: false,
+									success: function(html)
+									{
+										$("#chatbox").html(html); //insert chat log into the #chatbox div
+									}
+								});
+								
+								$('#chatbox').animate(
+								{
+									scrollTop: $('#chatbox').get(0).scrollHeight
+								}, 0);
+
+							}
+							
+							setInterval(loadlog,1500);
+

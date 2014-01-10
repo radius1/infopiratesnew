@@ -144,3 +144,63 @@ a:hover, a:link {
   display: inline-block;
   float: left;
 }
+
+
+/* CHAT */
+
+#wrapper, #loginform {  
+background: #EBF4FB;
+max-height: 1000px;
+max-width: 100%;
+min-width: 100%;
+}
+
+#chatbox {
+padding: 10px;
+height: 900px;
+overflow: hidden;
+}
+
+.head {
+background: #ADADAD; /* Old browsers */
+height: 70px;
+padding: -5px;
+}
+	
+.logout {
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.welcome {
+float: right;
+margin: 20px;
+margin-top: 25px;
+font-size: 14px;
+}
+	
+.message {
+background: #ADADAD; /* Old browsers */
+height: 80px !important;
+width: 100%;
+
+}
+
+#submitmsg {
+margin-bottom: 7px;
+}
+
+#usermsg {
+margin-bottom: 7px;
+}
+
+form {
+padding: 10px;
+}
+
+.message img {
+padding: 5px;
+}
+
+/***********************************************************************/

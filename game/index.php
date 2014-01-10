@@ -22,6 +22,7 @@ else
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+
 <!-- fix windowsmobile8 / bootstrap quirk -->
     <script type="text/javascript"> 
 <!-- 
@@ -202,7 +203,33 @@ Het eerste puzzelstuk.  </p>
         </div>
 
         <div class="row tab-pane" id="berichten">
-            dfdfdfdfdf
+            
+			<!-- AFBLIJVEN -->
+			
+					<div id="wrapper">  
+						<div id="menu"> 
+							<div class="head">
+								<div class="welcome">U bent ingelogt als: <b><?php echo $_SESSION['name']; ?></b></div>
+							</div>
+							
+						</div>  
+						  
+						<div id="chatbox"></div>  
+						  
+						<form name="message" class="message" action=""> 
+							
+									<input type="text" name="usermsg" id="usermsg" />
+									<a href="" name="submitmsg" id="submitmsg"><img src="img/send.png"></a>
+							
+						</form>
+					</div>  
+				
+			
+			
+			
+			
+			
+			
         </div>
 
     </div>
