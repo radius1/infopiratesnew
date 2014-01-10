@@ -46,7 +46,7 @@ require 'connect.inc.php';
          
       </div>
 
-      <div class="row"> <button type="button" class="btn-sm"><a href="index.php">terug naar de quest log.</a> </button> </div>
+      <div class="row"> <a href="index.php"><button type="button" class="btn-sm">terug naar de quest log. </button></a> </div>
       
         
         

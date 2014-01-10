@@ -71,32 +71,38 @@ a:hover, a:link {
 }
 
 .piece-1 {
-  background: #D5EAEA;  
+  background-image: url(img/piece1.jpg);
+    background-size: cover;
     opacity: 0;
 }
 
 .piece-2 {
-  background: #E0C1FF;  
+  background-image: url(img/piece2.jpg);    
+    background-size: cover;
     opacity: 0;
 }
 
 .piece-3 {
-  background: #DFDFEE;
+  background-image: url(img/piece3.jpg);  
+    background-size: cover;
     opacity: 0;
 }
 
 .piece-4 {
-  background:#FFDDBB;
+  background-image: url(img/piece4.jpg);  
+    background-size: cover;
     opacity: 0;
 }
 
 .piece-5 {
-  background: #FFC8E3;
+  background-image: url(img/piece5.jpg);  
+    background-size: cover;
     opacity: 0;
 }
 
 .piece-6 {
-  background: #FFFFB3; 
+  background-image: url(img/piece6.jpg);   
+    background-size: cover;
     opacity: 0;
 }
 

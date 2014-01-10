@@ -1,4 +1,3 @@
-
 //pak string na de # in de url
 var code = window.location.hash.substr(1);
 

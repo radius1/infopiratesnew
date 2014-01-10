@@ -66,7 +66,6 @@ else
       <div class="row">
         <ul class="nav nav-tabs" id="tabs">
           <li class="active"><a href="#quest">Quests</a></li>
-          <li><a href="#voortgang">Voortgang</a></li>
           <li><a href="#berichten">Berichten</a></li>
         </ul>
       </div>
