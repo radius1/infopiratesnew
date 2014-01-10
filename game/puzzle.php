@@ -67,10 +67,10 @@ session_start();
           <div class="modal-content">
             <div class="modal-header">
               <img src="img/box-closed.png" alt="" id="puzzle-piece">
-              <h4 class="modal-title" id="myModalLabel">Proficiat!</h4>
+              <h4 class="modal-title" id="myModalLabel">Proficiat InfoPirate!</h4>
             </div>
             <div class="modal-body">
-              <p>Je hebt alles gevonden!</p>
+              <p>Held! je hebt alles gevonden! Wat een fantastische prestatie voor een landrot als jij! Bevestig nogmaals het email adres hieronder en maak kans op één van de mooie prijzen die te winnen zijn.</p>
             </div>
             <div class="modal-footer">
              
