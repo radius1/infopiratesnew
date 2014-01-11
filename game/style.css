@@ -71,37 +71,37 @@ a:hover, a:link {
 }
 
 .piece-1 {
-  background-image: url(img/piece1.jpg);
+  background-image: url(img/piece1.png);
     background-size: cover;
     opacity: 0;
 }
 
 .piece-2 {
-  background-image: url(img/piece2.jpg);    
+  background-image: url(img/piece2.png);    
     background-size: cover;
     opacity: 0;
 }
 
 .piece-3 {
-  background-image: url(img/piece3.jpg);  
+  background-image: url(img/piece3.png);  
     background-size: cover;
     opacity: 0;
 }
 
 .piece-4 {
-  background-image: url(img/piece4.jpg);  
+  background-image: url(img/piece4.png);  
     background-size: cover;
     opacity: 0;
 }
 
 .piece-5 {
-  background-image: url(img/piece5.jpg);  
+  background-image: url(img/piece5.png);  
     background-size: cover;
     opacity: 0;
 }
 
 .piece-6 {
-  background-image: url(img/piece6.jpg);   
+  background-image: url(img/piece6.png);   
     background-size: cover;
     opacity: 0;
 }
