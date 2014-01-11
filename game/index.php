@@ -119,7 +119,7 @@ Het eerste puzzelstuk.  </p>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
               <div class="panel-body">
-               <p><b>De kapitein spreekt:</b> "Aaarrghh... Voor deze quest moet je het raadsel van de Torens van Hanoi oplossen. Ga naar het lokaal 330 op de derde verdieping
+               <p><b>De kapitein spreekt:</b> "Aaarrghh... Voor deze quest moet je het raadsel van de Torens van Hanoi oplossen. Ga naar het lokaal 424 op de vierde verdieping
                en ga de game spelen bij de Applicatieontwikkelaar." </p>
                <hr class="quest">
                 <p>Beloning: Het derde puzzelstuk</p> 
@@ -138,7 +138,7 @@ Het eerste puzzelstuk.  </p>
               <div class="panel-body">
                 <p><b>De kapitein spreekt:</b> "Landrotten! In mijn hand heb ik een brief in een flesje, het is
                 van de Mediadevelopers en zij zeggen: Ahoy Zeeschuimers! Hierbij nodigen wij jullie als 
-                piraten onder elkaar om ons zelfgemaakt chatapp te tonen. Weg met de brief in de fles, met deze chatapp
+                piraten onder elkaar om ons zelfgemaakt chatapp te tonen. Weg met de brief in de fles, deze chatapp
                 is de must have voor ieder piraat! Kom naar lokaal 328 en ontdek het zelf!"</p>
                 <hr class="quest">
                 <p>Beloning: Het vierde puzzelstuk</p>
@@ -177,7 +177,7 @@ Het eerste puzzelstuk.  </p>
               <div class="panel-body">
                <p><b>De kapitein spreekt:</b>"GEZOCHT! Ik zoek naar een landrot die is ge-entert op mijn schip en mijn schat heeft gestolen! 
                Zoek naar die landrot, levend of dood! Hij zit in dit gebouw bij het Radius College, maar hij verplaatst keer op keer. Hij is
-               voor het laatst gezien op de 3de verdieping. Als je hem ziet, loop je er naar toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
+               voor het laatst gezien op de 4de verdieping. Als je hem ziet, loop je er naar toe, tik je hem aan en roep Gezocht: Levend of dood!"</p> 
                <p><img src="img/piraat.png"></p> 
               <hr class="quest">
                 <p>Beloning: Het zesde puzzelstuk</p>
