@@ -7,19 +7,11 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="header-wrapper">
-            <h1>Radio Seven Seas</h1>
-            <div class="menu">
-                <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About Us</a></li>
-                    <li><a href='#'>Radio</a></li>
-                    <li><a href='#'>Music</a></li>
-                </ul>
-            </div>
-        </div>
         
-        <div id='slider'></div>
+        
+        <div id='slider'>
+            <h1 class="title">Radio Seven Seas</h1>
+        </div>
         
         <div id='mediaplayer'>
             <audio src="http://www.archive.org/download/bolero_69/Bolero.mp3#sthash.udlQoyUQ.dpuf" id="audio" preload="auto" tabindex="0" controls="">
@@ -28,7 +20,12 @@
         </div>
         
         <div class="container">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. 
+        <h1>Yohoho, A pirate's life for me!</h1>
+                    <p class="radio-text">
+                    Welkom schavuiten, bij 'Radio Seven Seas', De populairste radiozender van het ruime sop! Al sinds 1680
+                    bij jou beschikbaar op  het schip. Voor en door piraten, met non-stop hits als 'Pirates life for me' en 'Bottle of rum'. On-air en on-water 24/7.
+                    Ieder uur het laatste piratennieuws, en actuele roversinformatie. D-D-D-D-D-IT wilt u niet missen! AAAAHOOYYYYY
+
                     </p>
                     <ul id="playlist">
                         <h2>Tracklist</h2>
@@ -86,14 +83,19 @@
                             <a href="music/escaping_the_kraken.mp3">
                                 Escaping The Kraken
                             </a>
-                        </li>                        
+                        </li> 
+                        <li>
+                            <a onclick='window.location="Puzzlepiece.html"'>
+                                Wonderous puzzle piece
+                            </a>
+                        </li>                                                                                    
                     </ul>    
+                        
+                        
                 
                 
         </div>
-        <div id="footer-wrapper">
-            <p>&#169; Copyright Dimmy Marcelissen Mediadeveloper MED2A Radius College </p>
-        </div>
+      
         
         
     </div>
