@@ -97,15 +97,13 @@ Het eerste puzzelstuk.  </p>
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> Land HO!
+                 <span class="done"><img src="img/quest_open.png" alt="" id="marker"></span> <strong> Quest:</strong> Radio 'Seven seas'
                 </a>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
-                <p><b>De kapitein spreekt:</b> "Ahooy!!!!! Land in zicht aaaarrghhh... De kapituur stuurt jou naar buiten bij de hoofdingang om de drone naar het land te sturen
-                en zoek naar het volgende puzzel stuk. Dit zijn de co&#246;rdinatie N 51.606411, W 4.77858 , maarrrrr 
-                pas op voor het beest, de kraken!"</p>                        
+                <p><b>De kapitein spreekt:</b> "Aaarrr! Mijn kaart zegt dat we vlakbij mijn favoriete radiostation zijn! Ga naar lokaal 424 waar het radiostation is gevestigd en vraag een plaatje voor me aan. Kijk goed naar de piratenlieden. Er zijn geruchten over dat iemand daar ooit een puzzelstuk gespot heeft!"</p>                        
                 <hr class="quest">
                 <p>Beloning: Het tweede puzzelstuk</p>
               </div>
